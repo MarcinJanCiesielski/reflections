@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+-git creates some folders and files to track changes
+-git should know that I want to control version of files in this folder
+
+Just one file because files isn't connected 
