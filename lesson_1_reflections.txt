@@ -1,0 +1,19 @@
+-doing reviewing manually you can make a mistake, omit some bugs, you have a lot of work in complicated project
+-GUI tools is better for review but weaker for looking for typo
+-diff shows only lines which are different an it saves a lot of work, you aren't tired and you can stay focused on
+-version control is very useful for collaborating work and for work you did some time ago - you can check changes made in document and undo some of them
+
+-commits should be consistent in connection to particular problem, shouldn't be to small or too big (rule of thumb),
+-bigger work should be divided to couple of commits
+-pros of manual commits: coder knows better if he finishes the work or not, 
+-pros of automatic commits: is always had same amount of code eg. 10 lines, coder don't have to remember about making the commits
+
+-committing multiple files is better over single file, you can see connected changes in many files at once and see which files are affected
+
+-git log present history of all commits to a project (who is responsible for it and when was it done),
+-git diff provide information about number of files and changes in its, its useful for tracking directions of a project
+
+-version control is lot more easier to step back to a correct version of a code so you can do a lot of more "dangerous" changes and see what it goes
+
+- I'd like to try git for all my future project to have more time for coding not for repairing some changes which went wrong
+
