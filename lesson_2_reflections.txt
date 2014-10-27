@@ -2,4 +2,25 @@ What happens when you initialize a repository? Why do you need to do it?
 -git creates some folders and files to track changes
 -git should know that I want to control version of files in this folder
 
-Just one file because files isn't connected 
+Just one file because files isn't connected
+
+How can you use the staging area to make sure you have one commit per logical change?
+-you can listing most recent changes an decided if they are consistent or not
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-branches are useful for trying experimental feacher and preparing version especially for special bunch of people
+-it could be developed independently and when some of feature are ready the branches could be join (merged) easyly
+-preparing version for some people doesn't have infuence on your core project
+-creating new branch when mooving a to another piece of work (new feature / repairing a bug / )
+- keep mster brach always work and high quality
+
+How do the diagrams help you visualize the branch structure?
+-diagrams show which commits are part of each branch and what changes are included in current state of program
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-merging ended in providing changes from all branches to the currently using branch
+-because is join of couple branches to one
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-pros: less work to do, automatic merges have better control on what is diffrent and what isn't, it don't forget
+-cons: more code in files sometimes useless, git can merge work/code which isn't entirely finished
